@@ -22,7 +22,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/cr_toolbar"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_height="60dp"
             android:elevation="8dp">
 
             <RelativeLayout
@@ -34,7 +34,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:layout_margin="20dp"
+                    android:layout_margin="10dp"
                     app:cardCornerRadius="5dp">
 
                     <EditText
@@ -210,7 +210,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="0dp"
-                        android:background="@color/atmosphere"
+                        android:background="#308BED"
                         android:orientation="horizontal">
 
                         <RelativeLayout
@@ -231,29 +231,31 @@
                                     android:layout_width="25dp"
                                     android:layout_height="25dp"
                                     android:layout_gravity="center_horizontal"
-                                    android:src="@drawable/ic_search_24"></ImageView>
+                                    android:src="@drawable/pressure"></ImageView>
 
                                 <TextView
+                                    android:id="@+id/tv_pressure"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="monospace"
                                     android:gravity="center"
                                     android:text="100"
                                     android:textColor="@color/white"
-                                    android:textSize="25sp" />
+                                    android:textSize="18sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
-                                    android:text="aaaa"
+                                    android:text="Pressure"
                                     android:textColor="@color/white"
-                                    android:textSize="14sp" />
+                                    android:textSize="12sp" />
 
                             </LinearLayout>
                         </RelativeLayout>
 
                         <RelativeLayout
+                            android:id="@+id/rl_humidity_wrapper"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -270,29 +272,31 @@
                                     android:layout_width="25dp"
                                     android:layout_height="25dp"
                                     android:layout_gravity="center_horizontal"
-                                    android:src="@drawable/ic_search_24"></ImageView>
+                                    android:src="@drawable/humidity"></ImageView>
 
                                 <TextView
+                                    android:id="@+id/tv_humidity"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="monospace"
                                     android:gravity="center"
                                     android:text="100"
                                     android:textColor="@color/white"
-                                    android:textSize="25sp" />
+                                    android:textSize="18sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
-                                    android:text="aaaa"
+                                    android:text="Humidity"
                                     android:textColor="@color/white"
-                                    android:textSize="14sp" />
+                                    android:textSize="12sp" />
 
                             </LinearLayout>
                         </RelativeLayout>
 
                         <RelativeLayout
+                            android:id="@+id/rl_wind_speed_wrapper"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -309,24 +313,25 @@
                                     android:layout_width="25dp"
                                     android:layout_height="25dp"
                                     android:layout_gravity="center_horizontal"
-                                    android:src="@drawable/ic_search_24"></ImageView>
+                                    android:src="@drawable/windspeed"></ImageView>
 
                                 <TextView
+                                    android:id="@+id/tv_windspeed"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="monospace"
                                     android:gravity="center"
                                     android:text="100"
                                     android:textColor="@color/white"
-                                    android:textSize="25sp" />
+                                    android:textSize="18sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
-                                    android:text="aaaa"
+                                    android:text="Wind speed"
                                     android:textColor="@color/white"
-                                    android:textSize="14sp" />
+                                    android:textSize="12sp" />
 
                             </LinearLayout>
                         </RelativeLayout>
@@ -334,13 +339,15 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/ll_main_bg_below"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="0dp"
-                        android:background="@color/atmosphere"
+                        android:background="#308BED"
                         android:orientation="horizontal">
 
                         <RelativeLayout
+                            android:id="@+id/rl_sunrise_wrapper"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -357,29 +364,31 @@
                                     android:layout_width="25dp"
                                     android:layout_height="25dp"
                                     android:layout_gravity="center_horizontal"
-                                    android:src="@drawable/ic_search_24"></ImageView>
+                                    android:src="@drawable/sunrise"></ImageView>
 
                                 <TextView
+                                    android:id="@+id/tv_sunrise"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="monospace"
                                     android:gravity="center"
                                     android:text="100"
                                     android:textColor="@color/white"
-                                    android:textSize="25sp" />
+                                    android:textSize="18sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
-                                    android:text="aaaa"
+                                    android:text="Sunrise"
                                     android:textColor="@color/white"
-                                    android:textSize="14sp" />
+                                    android:textSize="12sp" />
 
                             </LinearLayout>
                         </RelativeLayout>
 
                         <RelativeLayout
+                            android:id="@+id/rl_sunset_wrapper"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -396,29 +405,31 @@
                                     android:layout_width="25dp"
                                     android:layout_height="25dp"
                                     android:layout_gravity="center_horizontal"
-                                    android:src="@drawable/ic_search_24"></ImageView>
+                                    android:src="@drawable/sunset"></ImageView>
 
                                 <TextView
+                                    android:id="@+id/tv_sunset"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="monospace"
                                     android:gravity="center"
                                     android:text="100"
                                     android:textColor="@color/white"
-                                    android:textSize="25sp" />
+                                    android:textSize="18sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
-                                    android:text="aaaa"
+                                    android:text="Sunset"
                                     android:textColor="@color/white"
-                                    android:textSize="14sp" />
+                                    android:textSize="12sp" />
 
                             </LinearLayout>
                         </RelativeLayout>
 
                         <RelativeLayout
+                            android:id="@+id/rl_temp_farenhite_wrapper"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -435,24 +446,25 @@
                                     android:layout_width="25dp"
                                     android:layout_height="25dp"
                                     android:layout_gravity="center_horizontal"
-                                    android:src="@drawable/ic_search_24"></ImageView>
+                                    android:src="@drawable/temp"></ImageView>
 
                                 <TextView
+                                    android:id="@+id/tv_temp_farenhite"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="monospace"
                                     android:gravity="center"
                                     android:text="100"
                                     android:textColor="@color/white"
-                                    android:textSize="25sp" />
+                                    android:textSize="18sp" />
 
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
-                                    android:text="aaaa"
+                                    android:text="Temp farenhite"
                                     android:textColor="@color/white"
-                                    android:textSize="14sp" />
+                                    android:textSize="12sp" />
 
                             </LinearLayout>
                         </RelativeLayout>

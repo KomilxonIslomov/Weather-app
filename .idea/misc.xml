@@ -4,8 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidProject/Weatherapp/app/src/main/res/drawable/cursor.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Weatherapp/app/src/main/res/drawable/humidity.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Weatherapp/app/src/main/res/drawable/pressure.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Weatherapp/app/src/main/res/drawable/sunrise.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Weatherapp/app/src/main/res/drawable/sunset.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Weatherapp/app/src/main/res/drawable/temp.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Weatherapp/app/src/main/res/drawable/windspeed.xml" value="0.1" />
         <entry key="..\:/AndroidProject/Weatherapp/app/src/main/res/font/.xml" value="0.22777777777777777" />
-        <entry key="..\:/AndroidProject/Weatherapp/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/AndroidProject/Weatherapp/app/src/main/res/layout/activity_main.xml" value="0.264" />
       </map>
     </option>
   </component>
