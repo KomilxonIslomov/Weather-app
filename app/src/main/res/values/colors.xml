@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="bulut">#1361fd</color>
+    <color name="yomgir">#526fa8</color>
+    <color name="yomgirli">#0e8eff</color>
+    <color name="qor">#987CFF</color>
+    <color name="atmosphere">#a884cc</color>
+    <color name="clear">#D67D3A</color>
+    <color name="clouds">#454a4c</color>
 </resources>
